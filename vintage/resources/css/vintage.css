@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+.middle {
+    background-image: url('../../resources/mypic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+.overlay {
+    background-color: rgba(54, 51, 51, 0.7);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.mainpara {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.title {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    padding-top: 150px;
+    margin: 0;
+}
+.mainmenu {
+    width: 30px;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    background-size: cover;
+  }
+  
+.mainmenu a {
+    color: #fff;
+    text-decoration: none;
+  }
+.mainmenu {
+    color: white;
+  }
+.smalltitle {
+    text-align: center;
+}
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8 {
+    display: inline-block;
+}
+.photos {
+    margin-left: 100px;
+    margin-right: 50px;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.smalltitle {
+    text-align: center;
+    margin-right: 70px;
+}
